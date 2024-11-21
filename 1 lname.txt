@@ -1,0 +1,40 @@
+import java.util.Scanner;
+class Main {
+    
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        
+        String fname, lname, mi, course, sec, fav_sub;
+        
+        System.out.println("-----------------------------");
+        System.out.println("|  STUDENT INFORMATION - AT  |");
+        System.out.println("-----------------------------");
+        
+        System.out.print("Please enter your Last Name: ");
+        lname = input.nextLine();
+        System.out.print("Please enter your First Name: ");
+        fname = input.nextLine();
+        System.out.print("Please enter your Middle Initial: ");
+        mi = input.nextLine();
+        System.out.print("Please enter your Course: ");
+        course = input.nextLine();
+        System.out.print("Please enter your Section: ");
+        sec = input.nextLine();
+        System.out.print("Please enter your Favorite Subject: ");
+        fav_sub = input.nextLine();
+        
+        System.out.println("--------------------------------");
+        System.out.println("Thank you, let me now repeat all");
+        System.out.println("the information you provided. ");
+        System.out.println("--------------------------------");
+        
+        System.out.println("Your name is "+ " " + fname +" "+mi+" "+lname );
+        System.out.println("you are enrolled in the course of "+" "+ course);
+        System.out.println("And you are with the section "+" "+sec);
+        System.out.println("And your favorite subject is "+" "+fav_sub);
+        System.out.println("--------------------------------");
+    }
+}
+        
+        
+        
